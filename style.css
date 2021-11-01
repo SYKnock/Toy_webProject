@@ -1,0 +1,157 @@
+.sleft{
+    top:0;
+    margin-left: -10px;
+
+    position: fixed;
+    width : 300px;
+    height: 100%;
+    color: #606060;
+    background-color: #beb6f0;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+
+.shead{
+    position: relative;
+    top:0;
+    margin-right: -10px;
+    height: 80px;
+    width: 100%;
+    font-size : 40px;
+    
+    text-align: right;
+    background-color: white;
+    border-style: none none solid none;
+    border-color: #beb6f0;
+    border-width: 5px;
+    line-height: 60px;
+    color: #606060;
+}
+
+
+
+li{
+    margin:20px 0px;
+}
+dt{
+    margin:20px 0px;
+}
+
+.sbody{
+    position: relative;
+    left: 50px;
+    width: 1000px;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 320px 600px;
+    grid-template-rows: 120px 250px 250px 250px 250px;
+
+}
+
+.sbody2{
+    position: relative;
+    left: 350px;
+    width: 1000px;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 700px;
+    grid-template-rows: 100px 300px 100px 170px 100px 170px 100px 200px 100px 150px;  
+}
+
+.sbody3{
+    position: relative;
+    left: 50px;
+    width: 1000px;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 700px;
+    grid-template-rows: 100px 200px 500px;
+
+}
+
+.sbody4{
+    position: relative;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 100px 700px;
+    grid-template-rows: 40px 40px 40px 400px
+}
+
+.sbody_normal
+{
+    position: relative;
+    width: 95%;
+    left: 50px;
+}
+
+.item1{
+    grid-column-start:1;
+    grid-column-end:3;
+
+}
+
+
+.body_text{
+    align-items: baseline;
+}
+
+
+.sfooter{
+    background-color:transparent;
+    position: fixed;
+    width:100%;
+    height:70px;
+    bottom:0;
+    margin-left: -30px;
+    text-align: right;
+    line-height: 35px;
+    color: #606060;
+}
+
+#profile_image{
+    margin-top: 100px;
+}
+
+.font{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#button{
+    border: 1px solid #606060; 
+    border-radius: 5px;
+    background-color: white; 
+    color: #606060; 
+    padding: 2px 7px 2px 7px;
+    font-size: 12px;
+}
+
+#button:hover{
+    border: 1px solid #606060; 
+    border-radius: 5px;
+    background-color: #606060; 
+    color: white; 
+    padding: 2px 7px 2px 7px;
+    font-size: 12px;
+}
+
+textarea{
+    height: 8em;
+    width: 80%;
+    resize: none;
+    text-align: left;
+    vertical-align: bottom;
+
+}
+
+table{
+    border: 1px solidblack;
+    border-collapse: collapse;
+}
+
