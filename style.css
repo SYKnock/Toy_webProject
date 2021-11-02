@@ -72,7 +72,7 @@ dt{
 
     display: grid;
     grid-template-columns: 700px;
-    grid-template-rows: 100px 200px 500px;
+    grid-template-rows: 100px 200px;
 
 }
 

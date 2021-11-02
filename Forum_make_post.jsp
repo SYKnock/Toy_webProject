@@ -36,7 +36,7 @@
                         </br> <b>Content</b> </br>
                         <textarea class = "font" name = "text" placeholder = "Input text(1~1000 word)" maxlength = "1000" style = "height: 30em; margin:10px 10px 0px 0px;"></textarea>
                         <button id = button type="submit" >Submit</button>
-                        <button id = button type="button" onclick="return cancle()">Cancle</button>
+                        <button id = button type="button" onclick="return cancel()">Cancel</button>
                     </div>
                 </form>
             </div>
@@ -78,9 +78,9 @@
                     
                 return true;
             }
-            function cancle()
+            function cancel()
             {
-                if(confirm("Cancle it?") == true)
+                if(confirm("Cancel it?") == true)
                 {
                     location.href = 'Forum.jsp';
                 }

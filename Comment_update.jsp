@@ -91,7 +91,7 @@
                     <div>
                         <textarea class = "font" name = "text" maxlength = "100" style = "margin:10px 10px 0px 0px; width: 80%; height: 5em"><%=current_text%></textarea>
                         <button id = button type="submit" >Submit</button>
-                        <button id = button type="button" onclick="cancle()">Cancle</button>
+                        <button id = button type="button" onclick="cancel()">Cancel</button>
                     </div>
                 </form>
             </div>
@@ -119,7 +119,7 @@
                     
                 return true;
             }
-            function cancle()
+            function cancel()
             {
                 location.href = "Forum_post.jsp?id=" + <%=post_id%>;
             }

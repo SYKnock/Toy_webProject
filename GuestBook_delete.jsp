@@ -53,7 +53,7 @@
                         <input name="pwd" autocomplete="off" type="password" maxlength = 10 size = 10"/>
                         <input type = "hidden" name="delete_id" value=<%=delete_id%>>
                         <button id = button type="submit" >Submit</button>
-                        <button id = button type="button" onclick="cancle()">Cancle</button>
+                        <button id = button type="button" onclick="cancel()">Cancel</button>
                     </div>
                 </form>
             
@@ -86,7 +86,7 @@
                     
                 return true;
             }
-            function cancle()
+            function cancel()
             {
                 location.href = 'GuestBook.jsp';
             }

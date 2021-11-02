@@ -75,7 +75,7 @@
                         <textarea name = "text" maxlength = "50" style = "margin:10px 10px 0px 0px;"><%=current_text%></textarea>
                         <input type = "hidden" name="update_id" value=<%=update_id%>>
                         <button id = button type="submit" >Submit</button>
-                        <button id = button type="button" onclick="cancle()">Cancle</button>
+                        <button id = button type="button" onclick="cancel()">Cancel</button>
                     </div>
                 </form>
             </div>
@@ -114,7 +114,7 @@
                     
                 return true;
             }
-            function cancle()
+            function cancel()
             {
                 location.href = 'GuestBook.jsp';
             }
