@@ -24,7 +24,7 @@
             try
             {
                 Class.forName("com.mysql.jdbc.Driver");
-                String mysql_url = "jdbc:mysql://172.17.0.3:3306/forum?useSSL=false";
+                String mysql_url = "jdbc:mysql://172.17.0.2:3306/forum?useSSL=false";
                 con = (Connection)DriverManager.getConnection(mysql_url, "root", "mysql");
                 String sql = "INSERT INTO post (name, pwd, wdate, title, content) values(?, ?, ?, ?, ?)";
                 pstmt = con.prepareStatement(sql);

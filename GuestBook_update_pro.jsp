@@ -20,7 +20,7 @@
             try
             {
                 Class.forName("com.mysql.jdbc.Driver");
-                String mysql_url = "jdbc:mysql://172.17.0.3:3306/guest_book?useSSL=false";
+                String mysql_url = "jdbc:mysql://172.17.0.2:3306/guest_book?useSSL=false";
                 con = (Connection)DriverManager.getConnection(mysql_url, "root", "mysql");
                 String update_sql = "UPDATE content SET content = ?,  wdate = ? WHERE _id = ?";
                 pstmt = con.prepareStatement(update_sql);
